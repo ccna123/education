@@ -186,11 +186,11 @@ function App() {
 
       {/* social link */}
       <section className="flex justify-center lg:my-20 my-10 gap-4">
-        <i class="fa-brands fa-facebook duration-150 rounded-full hover:bg-[#FD2370] hover:text-white hover:border-[#FD2370] border-[#D771FB] border-2 text-[#D771FB] cursor-pointer px-4 py-3 text-2xl"></i>
-        <i class="fa-brands fa-twitter duration-150 rounded-full hover:bg-[#FD2370] hover:text-white hover:border-[#FD2370] border-[#D771FB] border-2 text-[#D771FB] cursor-pointer px-4 py-3 text-2xl"></i>
-        <i class="fa-brands fa-instagram duration-150 rounded-full hover:bg-[#FD2370] hover:text-white hover:border-[#FD2370] border-[#D771FB] border-2 text-[#D771FB] cursor-pointer px-4 py-3 text-2xl"></i>
-        <i class="fa-brands fa-github duration-150 rounded-full hover:bg-[#FD2370] hover:text-white hover:border-[#FD2370] border-[#D771FB] border-2 text-[#D771FB] cursor-pointer px-4 py-3 text-2xl"></i>
-        <i class="fa-brands fa-linkedin duration-150 rounded-full hover:bg-[#FD2370] hover:text-white hover:border-[#FD2370] border-[#D771FB] border-2 text-[#D771FB] cursor-pointer px-4 py-3 text-2xl"></i>
+        <i className="fa-brands fa-facebook duration-150 rounded-full hover:bg-[#FD2370] hover:text-white hover:border-[#FD2370] border-[#D771FB] border-2 text-[#D771FB] cursor-pointer px-4 py-3 text-2xl"></i>
+        <i className="fa-brands fa-twitter duration-150 rounded-full hover:bg-[#FD2370] hover:text-white hover:border-[#FD2370] border-[#D771FB] border-2 text-[#D771FB] cursor-pointer px-4 py-3 text-2xl"></i>
+        <i className="fa-brands fa-instagram duration-150 rounded-full hover:bg-[#FD2370] hover:text-white hover:border-[#FD2370] border-[#D771FB] border-2 text-[#D771FB] cursor-pointer px-4 py-3 text-2xl"></i>
+        <i className="fa-brands fa-github duration-150 rounded-full hover:bg-[#FD2370] hover:text-white hover:border-[#FD2370] border-[#D771FB] border-2 text-[#D771FB] cursor-pointer px-4 py-3 text-2xl"></i>
+        <i className="fa-brands fa-linkedin duration-150 rounded-full hover:bg-[#FD2370] hover:text-white hover:border-[#FD2370] border-[#D771FB] border-2 text-[#D771FB] cursor-pointer px-4 py-3 text-2xl"></i>
       </section>
       {/* end social link */}
     </div>
