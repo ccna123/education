@@ -18,37 +18,36 @@ export const Nav = () => {
 
   return (
     <div>
-      <div className="flex z-50 w-full p-4 justify-center">
-        <div className="flex fixed w-full items-center justify-between p-2 bg-white lg:rounded-full">
+      <div className="flex justify-center lg:justify-normal w-full p-4">
+        <div className="z-50 flex fixed w-full items-center justify-between p-2 bg-[#FD2370] lg:rounded-full lg:w-[50%]">
           <div className="flex gap-2 items-center ml-4">
-            <i className="fa-solid fa-graduation-cap text-[#FD2370] text-2xl"></i>
-            <p className="text-[#D771FB] text-2xl">LOGO</p>
+            <i className="fa-solid fa-graduation-cap text-white text-2xl"></i>
           </div>
           <nav className="mr-4 lg:block hidden">
             <ul className="flex gap-10">
-              <li className="cursor-pointer text-[#D771FB] hover:text-[#FD2370] duration-150 text-lg">
+              <li className="cursor-pointer text-white hover:text-slate-400 duration-150 text-lg">
                 Home
               </li>
-              <li className="cursor-pointer text-[#D771FB] hover:text-[#FD2370] duration-150 text-lg">
+              <li className="cursor-pointer text-white hover:text-slate-400 duration-150 text-lg">
                 About
               </li>
-              <li className="cursor-pointer text-[#D771FB] hover:text-[#FD2370] duration-150 text-lg">
+              <li className="cursor-pointer text-white hover:text-slate-400 duration-150 text-lg">
                 Teachers
               </li>
-              <li className="cursor-pointer text-[#D771FB] hover:text-[#FD2370] duration-150 text-lg">
+              <li className="cursor-pointer text-white hover:text-slate-400 duration-150 text-lg">
                 Course
               </li>
-              <li className="cursor-pointer text-[#D771FB] hover:text-[#FD2370] duration-150 text-lg">
+              <li className="cursor-pointer text-white hover:text-slate-400 duration-150 text-lg">
                 Review
               </li>
-              <li className="cursor-pointer text-[#D771FB] hover:text-[#FD2370] duration-150 text-lg">
+              <li className="cursor-pointer text-white hover:text-slate-400 duration-150 text-lg">
                 Contact
               </li>
             </ul>
           </nav>
 
           <button className="mr-10" onClick={handleOpenMenu}>
-            <i className="fa-solid fa-bars lg:hidden block"></i>
+            <i className="text-white fa-solid fa-bars lg:hidden block"></i>
           </button>
         </div>
       </div>
