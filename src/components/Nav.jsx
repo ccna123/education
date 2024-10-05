@@ -1,10 +1,21 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 export const Nav = () => {
   const [openMenu, setOpenMenu] = useState(false);
   const handleOpenMenu = () => {
     setOpenMenu(!openMenu);
   };
+
+  useEffect(() => {
+    const handleSize = () => {
+      if (window.innerWidth >= 768) {
+        setOpenMenu(false);
+      }
+    };
+    window.addEventListener("resize", handleSize);
+    return () => window.removeEventListener("resize", handleSize);
+  }, []);
+
   return (
     <div>
       <div className="flex z-50 w-full p-4 justify-center">
